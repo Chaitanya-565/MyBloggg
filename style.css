@@ -1,0 +1,88 @@
+body {
+    text-align: center;
+    font-family: 'itis'cursive;
+    font-size: 20px;
+    color: red;
+}
+
+img {
+    width: 200;
+    height: 40%;
+    border-radius: 50%;
+}
+
+hr {
+    height: 6px;
+    background-color: darkorchid;
+    width: 200px;
+    margin: 8px auto;
+}
+
+h1 {
+    text-shadow: 2px 3px black;
+}
+
+h2 {
+    text-shadow: 2px 3px black;
+}
+
+p {
+    text-shadow: 2px 3px black;
+}
+
+h3 {
+    text-shadow: 2px 3px black;
+}
+
+.menu {
+    background: linear-gradient(0, 249, 244, 1)0%, rgba(125, 255, 114, 1)50%, rgba(255, 255, 97, 1) 100%);
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    position: fixed;
+    top: 0px;
+    right: 370px;
+    z-index: 10;
+    color: white;
+}
+
+.link {
+    float: left;
+    color: white;
+    padding-top: 5px;
+    padding-left: -10px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 16px;
+}
+
+.link:hover {
+    background: Linear-gradient(90deg, rgba(164, 159, 241, 1) 0%, rgba(217, 104, 255, 1) 50%, rgba(237, 192, 221, 1)100%);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#Articles{
+    background-color: Linear-gradient (90deg, rgba(249,0,0,1) 0%, rgba(215,29,253,1) 50%, rgba(130,97,255,1)100%);
+}
+
+img{
+    transition: transform .2s;
+}
+
+img:hover{
+    transform: scale(0.9);
+    border-color:darkblue;
+    border-width: 5px;
+    border-style: dotted;
+}
